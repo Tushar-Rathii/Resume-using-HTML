@@ -1,2 +1,133 @@
-# Resume-using-HTML
-HTML code to build a resume 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700,800,900&display=swap"
+        rel="stylesheet" />
+
+    <title>Resume</title>
+</head>
+
+<body>
+    <div style=" flex-direction: row ; justify-content: center  ; align-items: center; ">
+        <div class="header" style="display: inline-block;">
+            <div class="header-left">
+                <div class="name">
+                    <h1 class="first-name">Tushar Rathi</h1>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="email">
+                    <p>22rathiji@gmail.com@gmail.com</p>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="linkedin">
+                    <p>https://www.linkedin.com/in/tushar-rathi504/</p>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="github">
+                    <p>https://github.com/Tushar-Rathii</p>
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="phone">
+                    <p>+91 7838788489</p>
+                    <i class="fas fa-phone"></i>
+                </div>
+            </div>
+        </div>
+        <img style="width: 200px; margin-left: 800px ; margin-bottom: 70px;" src="./image/tushar.jpg" alt="">
+    </div>
+    <div class="box">
+        
+        <hr />
+        <div class="objective">
+            <div class="obj-heading grey">
+                <i class="fas fa-bullseye icon"></i>
+                <h2>Profile Summary:</h2>
+            </div>
+            <p>
+                Third year student seeking a challenging career with a progressive organization that provides an
+                opportunity to capitalize my technical skills and abilities.<br>
+                - Having a good hands-on practice on Python.<br>
+                - Good in OOP’s concept.<br>
+                - Done many mini projects on python language(rock-paper-scissor game, library management system,
+                NewsPaperReader etc.)<br>
+                - Done IOT based projects(Smart dustbin, fire alert system using sensors)<br>
+            </p>
+        </div>
+        <div class="education">
+            <div class="ed-heading grey">
+                <i class="fas fa-school icon"></i>
+                <h2>Education</h2>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Board</th>
+                    <th>Institution</th>
+                    <th>Year of passing</th>
+                    <th>Percentage/GPA</th>
+                </tr>
+                <tr>
+                    <td>B-Tech</td>
+                    <td>GLA UNIVERSITY</td>
+                    <td>2023</td>
+                    <td>77%</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>ST. John'School</td>
+                    <td>2019</td>
+                    <td>77.2%</td>
+                </tr>
+                <tr>
+                    <td>Tenth Grade</td>
+                    <td>ST. John'SchoolL</td>
+                    <td>2017</td>
+                    <td>72.2%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="skills">
+            <div class="skills-heading grey">
+                <i class="fas fa-tools icon"></i>
+                <h2>Skills</h2>
+            </div>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PYTHON</li>
+                <li>Javascript</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+        <div class="activities">
+            <div class="act-heading grey">
+                <i class="fab fa-creative-commons-nd icon"></i>
+                <h2>Activities</h2>
+            </div>
+
+            <p>
+                • Initiated a NGO (Gyaan)<br>
+                • Organised & involved in “Hit The Target” event.<br> `
+                • Won Inter School Badminton Championship<br>
+                • Head Coordinator: Annual Sports Meet<br>
+            </p>
+
+        </div>
+</body>
+
+</html>
+© 2022 GitHub, Inc.
